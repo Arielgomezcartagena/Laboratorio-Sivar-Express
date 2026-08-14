@@ -3,7 +3,7 @@ name: Deploy to Supabase
 on:
   push:
     branches: [master]
-    paths: ['supabase/**']   # Solo si cambia algo en supabase/
+    paths: ['SUPABASE/**']   # Solo si cambia algo en supabase/
   workflow_dispatch:          # Permite ejecucion manual desde la UI
 
 jobs:
